@@ -64,7 +64,7 @@ try {
     $mail->Port       = 465;
 
     $mail->setFrom('contact@webprime.fr', 'RénovExterieur');
-    $mail->addAddress('renovexterieur@yahoo.com');
+    $mail->addAddress('lassistance@hotmail.fr');
     $mail->addAddress('webprime91@hotmail.com');
     $mail->CharSet = 'UTF-8';
     $mail->isHTML(true);
