@@ -8,8 +8,8 @@ h4{margin:5% 3%;font-size:20px;font-weight:350}
 p{color:#000;font-size:19px;margin-left:5%;margin-right:5%;text-align:center;padding:2%;line-height:1.7;word-spacing:5px}
 strong{color:#9e1515}
 a{text-decoration:none;color:#000;font-weight:600}
-.histoire{background-color:#9e1515;padding:2% 0;width:80%;margin:10% auto;box-shadow:2px 3px 0 2px #000;border-radius:20px 20px 20px 0}
-.histoire h4,.histoire p{color:#fff}
+.histoire{background-color:#fff;padding:2% 0;width:80%;margin:10% auto;border-radius:20px; border: solid 1px red;}
+.histoire h4,.histoire p{color:#222}
 #tarif{background-color:#fff;padding:2%;width:100%;margin:10% auto;border: 2px solid #000;}
 #tarif h2,#tarif h3,#tarif p{color:#000}
 #tarif p{text-align:left}
@@ -64,12 +64,12 @@ a{text-decoration:none;color:#000;font-weight:600}
 @media screen and (max-width:767.98px) {
 h4,p{color:#000;text-align:center}
 h2,h3,h4,p{text-align:center}
-h1{font-weight:550;font-size:30px;margin-bottom:-2%;margin-top:5%;text-align: left;}
+h1{font-weight:550;font-size:28px;margin-bottom:-2%;margin-top:5%;text-align: left;}
 h2{margin-top:10%;margin-bottom:10%;font-size:35px;font-weight:530}
 h3{font-weight:200;font-size:15px;margin:3% 3% 7%}
 h4{margin:5% 3%;font-size:20px;font-weight:350}
 p{font-size:19px;margin-left:5%;margin-right:5%;padding:2%}
-.histoire p,.valeur p{color:#fff;font-size:17px}
+.valeur p{color:#fff;font-size:17px}
 hr{width:25%;margin-bottom:2%}
 .form-container h2{font-size:18px;margin-top:2%;margin-bottom:6%}
 body{margin-top:18%}
