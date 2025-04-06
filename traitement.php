@@ -63,7 +63,7 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
-    $mail->setFrom('contact@webprime.fr', 'RénovExterieur');
+    $mail->setFrom('contact@webprime.fr', 'Lassistance');
     $mail->addAddress('lassistance@hotmail.fr');
     $mail->addAddress('webprime91@hotmail.com');
     $mail->CharSet = 'UTF-8';
@@ -74,7 +74,7 @@ try {
 
     $mail->send();
 
-    header('Location: https://electricien-95-val-doise.fr/');
+    header('Location: https://electricien-44.fr/');
     exit();
 } catch (Exception $e) {
     echo "Message non envoyé. Erreur Mailer: {$mail->ErrorInfo}";
